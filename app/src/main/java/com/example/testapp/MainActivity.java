@@ -5,7 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.example.calculator.Calculator;
+import com.example.cal.Calculator;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,9 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        Calculator cal = new Calculator();
-//        int sum = cal.sum(10, 20);
-//        Log.d("TAG", "sum: " + sum);
+        Calculator calculator = new Calculator();
+        calculator.sum(10, 20);
 
     }
 }

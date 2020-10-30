@@ -1,4 +1,3 @@
-include ':calculator1'
-include ':app:calculator'
+include ':cal'
 include ':app'
 rootProject.name = "testapp"
